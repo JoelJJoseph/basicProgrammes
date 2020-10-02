@@ -10,7 +10,7 @@ public class largestNumberOutOfThree {
         b=sc.nextInt();
         System.out.println("Enter third number");
         c=sc.nextInt();
-        if(a>b && a>c)
+      /*  if(a>b && a>c)
         {
             System.out.println("The largest no is "+a);
         }
@@ -21,7 +21,14 @@ public class largestNumberOutOfThree {
         else
         {
             System.out.println("The largest no is "+c);
-        }
+        }*/
+        //try this out
+        if(a>b>c)
+                 System.out.println("The largest no is "+a);
+        else if(b >c)
+                 System.out.println("The largest no is "+b);
+        else
+                System.out.println("The largest no is "+c);
     }
 }
 
