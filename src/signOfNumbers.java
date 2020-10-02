@@ -8,7 +8,7 @@ public class signOfNumbers {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the number you want to check:");
         n = s.nextInt();
-        if(n > 0)
+        if(n >= 0)
         {
             System.out.println("The given number "+n+" is Positive");
         }
@@ -16,10 +16,16 @@ public class signOfNumbers {
         {
             System.out.println("The given number "+n+" is Negative");
         }
-        else
+       /* else
         {
             System.out.println("The given number "+n+" is neither Positive nor Negative ");
-        }
+        }*/                             //if not negative than its positive even without sign
+        
+        /*
+        try this code...
+        String result=n>=0?"Positive no.":"Negative no.";
+        System.out.println(result);
+        */
     }
 }
 
